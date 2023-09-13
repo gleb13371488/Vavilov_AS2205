@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    char n;
+    cout << "Press any button then Enter\n";
+    cin >> n;
+    cout << "Hello World!\n";
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
